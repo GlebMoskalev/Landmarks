@@ -41,6 +41,10 @@
 		044BD2D02CC5112400404585 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BD2CF2CC5112400404585 /* ProfileSummary.swift */; };
 		044BD2D22CC5123900404585 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BD2D12CC5123900404585 /* HikeBadge.swift */; };
 		044BD2D42CC519D400404585 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BD2D32CC519D400404585 /* ProfileEditor.swift */; };
+		044BD2D72CC51CFD00404585 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BD2D62CC51CFD00404585 /* PageViewController.swift */; };
+		044BD2D92CC51E2B00404585 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BD2D82CC51E2B00404585 /* FeatureCard.swift */; };
+		044BD2DB2CC51F4F00404585 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BD2DA2CC51F4F00404585 /* PageView.swift */; };
+		044BD2DD2CC5222000404585 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BD2DC2CC5222000404585 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +83,10 @@
 		044BD2CF2CC5112400404585 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		044BD2D12CC5123900404585 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		044BD2D32CC519D400404585 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		044BD2D62CC51CFD00404585 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		044BD2D82CC51E2B00404585 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		044BD2DA2CC51F4F00404585 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		044BD2DC2CC5222000404585 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				044BD2682CC4E34F00404585 /* ContentView.swift */,
+				044BD2D52CC51CE800404585 /* PageView */,
 				044BD2A92CC4F6E800404585 /* Landmarks */,
 				044BD2CC2CC5108500404585 /* Profiles */,
 				044BD2C92CC5100600404585 /* Categories */,
@@ -237,6 +246,17 @@
 			path = Profiles;
 			sourceTree = "<group>";
 		};
+		044BD2D52CC51CE800404585 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				044BD2D62CC51CFD00404585 /* PageViewController.swift */,
+				044BD2D82CC51E2B00404585 /* FeatureCard.swift */,
+				044BD2DA2CC51F4F00404585 /* PageView.swift */,
+				044BD2DC2CC5222000404585 /* PageControl.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,11 +335,13 @@
 				044BD2CB2CC5102E00404585 /* Profile.swift in Sources */,
 				044BD2692CC4E34F00404585 /* ContentView.swift in Sources */,
 				044BD2C42CC508FD00404585 /* CategoryHome.swift in Sources */,
+				044BD2D92CC51E2B00404585 /* FeatureCard.swift in Sources */,
 				044BD2B42CC502AC00404585 /* Badge.swift in Sources */,
 				044BD2772CC4E62400404585 /* MapView.swift in Sources */,
 				044BD2BF2CC5058900404585 /* GraphCapsule.swift in Sources */,
 				044BD2C12CC5058900404585 /* HikeGraph.swift in Sources */,
 				044BD2672CC4E34F00404585 /* LandmarksApp.swift in Sources */,
+				044BD2DD2CC5222000404585 /* PageControl.swift in Sources */,
 				044BD2A82CC4F65000404585 /* FavoriteButton.swift in Sources */,
 				044BD2C82CC50B4000404585 /* CategoryItem.swift in Sources */,
 				044BD2AC2CC4FB6500404585 /* HexagonParameters.swift in Sources */,
@@ -328,11 +350,13 @@
 				044BD2CE2CC5109400404585 /* ProfileHost.swift in Sources */,
 				044BD2B22CC5024100404585 /* RotatedBadgeSymbol.swift in Sources */,
 				044BD2B02CC5016900404585 /* BadgeSymbol.swift in Sources */,
+				044BD2DB2CC51F4F00404585 /* PageView.swift in Sources */,
 				044BD2A42CC4EEA700404585 /* LandmarkList.swift in Sources */,
 				044BD2D42CC519D400404585 /* ProfileEditor.swift in Sources */,
 				044BD2C02CC5058900404585 /* HikeDetail.swift in Sources */,
 				044BD2C22CC5058900404585 /* HikeView.swift in Sources */,
 				044BD2A62CC4EF3700404585 /* LandmarkDetail.swift in Sources */,
+				044BD2D72CC51CFD00404585 /* PageViewController.swift in Sources */,
 				044BD2AE2CC4FD4C00404585 /* BadgeBackground.swift in Sources */,
 				044BD2D22CC5123900404585 /* HikeBadge.swift in Sources */,
 				044BD2752CC4E5A500404585 /* CircleImage.swift in Sources */,
